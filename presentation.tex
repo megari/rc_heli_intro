@@ -1,15 +1,18 @@
 \documentclass{beamer}
- 
+
 \usepackage[utf8]{inputenc}
 
 \usetheme{Madrid}
 \usecolortheme{default}
- 
+
 \title{A Very Short Introduction to RC Helicopters}
 \author{Ari Sundholm}
 %\institute{foobar}
 \date{April 19, 2016}
- 
+
+\titlegraphic{
+	\includegraphics[width=.7\textwidth]{images/IMG_0617_cropped_smaller}
+}
  
 \begin{document}
  
@@ -20,62 +23,81 @@
 \frametitle{Initial choices}
 
 Assume a collective-pitch helicopter
-
-- Fixed-pitch helicopters are less exciting ;)
+\begin{itemize}
+	\item Fixed-pitch helicopters are boring ;)
+\end{itemize}
 
 Need to select brand
-
-- All my own "real" helicopters are from Align or are Align clones
-- Assuming we are starting from a kit
+\begin{itemize}
+	\item All my own "real" helicopters are from Align or are Align clones
+	\item Assuming we are starting from a kit
+\end{itemize}
 
 Need to select power source
-
-- Fueled helicopter (Nitro, gas)
-
-- Electric helicopter (Battery)
+\begin{itemize}
+	\item Fueled helicopter (Nitro, gas)
+	\item Electric helicopter (LiPo Battery)
+\end{itemize}
 
 Need to select type of stabilization
+\begin{itemize}
+	\item Flybarred helicopter (mechanical stabilization)
+	\item Flybarless helicopter (electronic stabilization)
+\end{itemize}
 
-- Flybarred helicopter (mechanical stabilization)
-
-- Flybarless helicopter (electronic stabilization)
-
-Need to select electronic components
+Need to select electronics
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-\frametitle{Electronic components}
+\frametitle{Electronics}
 
-Electronics
+Several brands available for each type of component
 
-- Several brands available for each type of component
+Radio equipment: transmitter, receiver
+\begin{itemize}
+	\item Typically 2.4 GHz
+	\item Two major brands: Spektrum and Futaba
+\end{itemize}
 
-- Radio equipment: transmitter, receiver
+If electric, a speed controller (ESC)
+\begin{itemize}
+	\item Voltage
+	\item Amperage
+\end{itemize}
 
--- Typically 2.4 GHz
--- Two major brands: Spektrum and Futaba
+Servos
+\begin{itemize}
+	\item 3 servos to control the rotor head (main blade pitch)
+	\item 1 servo to control the tail blade pitch
+	\item If fueled, 1 servo to control the throttle
+\end{itemize}
 
-- If electric, a speed controller (ESC)
+\end{frame}
 
--- Amperage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Electronics: The big picture}
 
-- Servos
+\begin{center}
+	\includegraphics[width=.75\textwidth]{images/IMG_0637_cropped_smaller}
+\end{center}
+\end{frame}
 
--- 3 servos to control the rotor head (main blade pitch)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Electronics: Transmitter and receiver}
 
--- 1 servo to control the tail blade pitch
+Mine are from Spektrum:
 
--- If fueled, 1 servo to control the throttle
-
+\includegraphics[width=.5\textwidth]{images/IMG_0626_cropped_smaller}
+\includegraphics[width=.5\textwidth]{images/IMG_0628_cropped_smaller}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
 \end{document}
-
 
